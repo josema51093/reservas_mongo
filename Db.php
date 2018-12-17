@@ -12,7 +12,7 @@
 				//Abrimos conexión a Mongo
 				$conexion = new MongoDB\Client;
 				//Seleccionamos base de datos
-				self::$conexion = $conexion->daw;
+				self::$conexion = $conexion->pruebas;
 
 				return self::$conexion;
 		}		
